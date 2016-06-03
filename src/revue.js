@@ -1,5 +1,5 @@
 // to valid and match like `a as x.y.z`
-const re = /^([a-zA-Z0-9_-]+)\s{1,2}as\s{1,2}([a-zA-Z0-9\._-]+)$/i
+const re = /^([\w-]+)\s+as\s+([\w\.-]+)$/i
 
 const isDev = process.env.NODE_ENV !== 'production'
 
